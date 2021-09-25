@@ -12,6 +12,7 @@
 
 .enter.clicked {
   opacity: 0;
+  pointer-events: none;
 }
 
 .App {
@@ -30,6 +31,7 @@
 
 .App.clicked {
   opacity: 0.7;
+  pointer-events: all;
 }
 
 .miss {
